@@ -12,11 +12,11 @@ while True:
     elif num2 > num1:
         print(f"{num2} is the bigger number.")
     else:
-        print("The numbers you entered are equal.")
+        print("Please enter two different numbers.")
 
     ans = input("\n(Type restart/exit): ").lower().strip()
     if ans != "restart":
-        print("Good bye")
+        print("Good bye!")
         break
         
        
