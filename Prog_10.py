@@ -8,3 +8,4 @@ for nums in range (0,101):
         empty.append(nums)
 # Print the rest of the  numbers
 print(f"\nThe numbers are:\n\n{empty}")
+empty.clear()
