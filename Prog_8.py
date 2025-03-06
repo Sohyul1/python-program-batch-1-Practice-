@@ -3,6 +3,7 @@
 # Ask for user input
 numbers = []
 while True:
+    numbers.clear() 
     for nums in range(1, 11):
         num = float(input(f"Enter number {nums}: "))
         # Filter out the odd numbers
