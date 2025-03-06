@@ -8,6 +8,4 @@ for nums in range(0, 101):
     
 # Print the even numbers
 print(f"\nThe even numbers are:\n\n{empty}")
-
-
-
+empty.clear()
